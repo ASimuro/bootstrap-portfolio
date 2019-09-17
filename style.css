@@ -1,5 +1,14 @@
 .container{
-margin-left: 0px;
+padding: 15px;
+background: white;
+width: 960px;
+height: 545px;
+font-size: 20px;
+line-height:25px;
+padding: 10px 20px 5px 20px;
+margin-top:20px;
+overflow:auto; 
+align-content:center;
 
 }
 
@@ -8,7 +17,7 @@ footer{
     border-top: 10px solid teal;
     clear:both;
     margin-top: 15%;
-    height:80px;
+    height:60px;
 }
 
 .row{
@@ -17,6 +26,7 @@ footer{
     margin-left: 5px;
     margin-top: 20px;
     background-color:white;
+    width: 100%;
 }
 
 #me{
@@ -33,15 +43,16 @@ footer{
 .navbar-nav{
 overflow: hidden;
   position: absolute;
-  top: 10px;
+  top: 30px;
   left:1100px;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 h2{
     color:teal;
     clear:both;
     background: white;
-    padding:20px 0px 20px 0px;
+    padding:0px 0px 20px 0px;
     border-bottom: 2px solid rgb(167, 158, 158);
     font-size:30px;
 }
@@ -52,14 +63,6 @@ body{
     background-repeat: repeat; 
     border-color: #ddd;
     color: #777;
-}
-
-.text{
-    background: white;
-    margin-left: 18%;
-    width: 960px;
-    height: 575px;
-    font-size: 20px;
 }
 
 .btn{
@@ -102,3 +105,22 @@ body{
     height: 775px;
     font-size: 20px;
 }
+
+  .navbar{
+      height:100px;
+      background:white;
+      background: #ffffff;
+      border-color: #ccc;
+      font-family: 'Georgia', Times, "Times New Roman", serif;
+      color:white;
+  }
+
+  .navbar-brand{
+    margin-left: 315px;
+    background: teal;
+    padding:27px;
+    font-size: 30px;
+    color:white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+  }
