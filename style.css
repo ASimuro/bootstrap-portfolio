@@ -33,7 +33,7 @@ footer{
      height: 200px;
     max-width: 100%; 
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 35px;
     margin-bottom: 10px;
     object-fit:cover;
     object-position: center;
@@ -97,15 +97,20 @@ body{
 
 
   .navbar{
+
       position: static;
       color:white;
   }
 
    .navbar-brand{
     background: teal;
-    padding:25px 60px 25px 60px;
+    padding:15px 60px 25px 60px;
     font-size: 30px;
     font-family: 'Georgia', Times, "Times New Roman", serif;
+   }
+
+   form{
+       color:#777
    }
 
   a:link {
