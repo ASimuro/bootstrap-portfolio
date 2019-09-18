@@ -97,12 +97,6 @@ body{
 
 
   .navbar{
-      /* height:100px;
-      background:white;
-      /* background: #ffffff; 
-      border-color: #ccc;
-      font-family: 'Georgia', Times, "Times New Roman", serif;
-      color:white; */
       position: static;
       color:white;
   }
