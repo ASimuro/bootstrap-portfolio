@@ -82,31 +82,37 @@ body{
     }
 
     .gridLabel{
-        position: absolute;
         z-index: 2;        
         text-align: center;
-        top: 70%;
-        background: teal;
+        top: 85%;
         font-family: Arial,sans-serif;
         color: #fff;
-        width: 94%;
-        padding: 10px;
-        font-size: 15px;
+        font-size: 25px;
         height:auto;
+        background:teal;
+        border:3px solid black;
     }
-
+.label:link{
+    color:white;
+}
+.label:hover{
+    font-weight: 900;
+}
 
   .navbar{
 
       position: static;
       color:white;
   }
+  #name{
+      color:white;
+  }
 
    .navbar-brand{
     background: teal;
-    padding:15px 60px 25px 60px;
     font-size: 30px;
     font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
    }
 
    form{
@@ -115,23 +121,15 @@ body{
 
   a:link {
     text-decoration: none;
-    color: grey
+    color: grey;
+    font-size:20px;
+    margin-top:5px;
 }  
-
-  a:visited {
-    color: rgb(163, 159, 160);
-    background-color: transparent;
-     text-decoration: none; 
-  }
   
   a:hover {
-    color: rgb(70, 69, 69);
+    color: rgb(12, 7, 7);
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:active {
-    color: rgb(82, 82, 82);
-    background-color: transparent;
-    text-decoration: none;
-  }
+
