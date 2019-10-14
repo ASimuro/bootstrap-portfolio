@@ -56,7 +56,7 @@ h2{
 
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url('../Basic-Portfolio/assets/images/trees.png'); 
+    background-image: url('images/trees.png'); 
     background-repeat: repeat; 
     border-color: #ddd;
     color: #777;
